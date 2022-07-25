@@ -9,7 +9,7 @@ def guess(x):
         if guess <randomNumber:
             print("Sorry.Too low")
         elif guess >randomNumber:
-            print("sorry.Too high")
+            print("Sorry.Too high")
 
     print(f'Congratulations You have guessed the rigth number {randomNumber}')
 guess(10)
