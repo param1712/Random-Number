@@ -1,6 +1,6 @@
 import random
 
-
+#Guess the random number selected by computer 
 def guess(x):
     randomNumber= random.randint(1,x)
     guess =0
