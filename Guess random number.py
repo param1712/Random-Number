@@ -1,4 +1,4 @@
-from random import random
+import random
 
 
 def guess(x):
@@ -12,4 +12,4 @@ def guess(x):
             print("sorry.Too high")
 
     print(f'Congratulations You have guessed the rigth number {randomNumber}')
-guess=10
+guess(10)
